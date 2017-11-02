@@ -1,12 +1,12 @@
 import java.util.*;
-public abstract class queue implements Comparable
+public class queue 
 {public static void main(String[]args)
 	{PriorityQueue<String> queue=new PriorityQueue<String>(); 
 	PriorityQueue<String> q=new PriorityQueue<String>(); 
 	queue.add("Amit");//note that adding the elements in queue is based on natural ordering
 	queue.add("Vijay");//on natural ordering ie based on id that is  
 	queue.add("Karan");//created during process of adding the elements  
-	queue.add("Jai");  //this procces is sloved by impleming the interface Comparable
+	queue.add("Jai");  
 	queue.add("Rahul");  
 	System.out.println("head:"+queue.element());  
 	System.out.println("head:"+queue.peek());  
